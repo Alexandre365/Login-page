@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{margin: 0px; padding: 0px; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+*, button, input{
+    border: 0;
+    background: none;
+  }
+body{
+  background-color: var(--Verde);
+}
+:root{
+    --Verde:#2EE695;
+    --Verde2:#26cf86;
+    --Cinza:rgb(185, 185, 185);
+    --Cinza2:rgb(54, 54, 54);
+}

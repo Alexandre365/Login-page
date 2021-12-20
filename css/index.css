@@ -1,0 +1,156 @@
+header > h2{
+    margin: 10px;
+}
+/* Main */
+main{
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+    #box{
+        width: min(600px,100%);
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+    }
+        #box > div {
+            width: 100%;
+        }
+            #Titulo{
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 30px;
+                color: white;
+            }
+                #Titulo > h3{
+                    width: 60%;
+                    font-size: min(50px,10vw);
+                }
+            #Componet{
+                padding: 10px;
+                width: 100%;
+                height: 330px;
+                border-radius: 25px 25px 0px 0px;
+                background-color: white;
+                box-shadow: 10px 10px 15px #3b3b3b69;
+                display: flex;
+                justify-content: center;
+                transition: height 1.5s;
+            }
+
+/*  Login   */
+#Login{
+    opacity: 1;
+    transition: opacity 1s;
+    margin-top: 10px;
+    width: 90%;
+}
+
+/* Cadastro */
+#Cadastro{
+    display: none;
+    margin-top: 10px;
+    width: 90%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Card */
+#Card{
+    position: fixed;
+    top: 300px;
+    width: min(400px,95%);
+    height: auto;
+    background-color: white;
+    box-shadow: 5px 5px 15px #3b3b3b69;
+    border-radius: 10px;
+    display: none;
+    padding: 20px 20px 10px 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+    #txt > h2{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 26px;
+    }
+
+    #txt > p{
+        font-size: 18px;
+    }
+    
+    #Card > button{
+        background-color: var(--Verde);
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+        #Card > button:active{
+            background-color: var(--Verde2);
+        }
+/* EMS */
+.EMS{
+    display: flex;
+    justify-content:flex-end;
+    padding: 5px;
+    color: var(--Cinza2);
+}
+    .EMS > span {
+        cursor: pointer;
+    }
+
+
+
+/*  Texto   */
+#login-txt{
+    width: 100%;
+    height: auto;
+}
+
+/* Botão */
+#Btns{
+    display: flex;
+    justify-content: center;
+}
+    #Btns > div{
+        width: 100%;
+    }
+    #Btns > div > button{
+        width: 100%;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 10px ;
+        border: 2px solid var(--Verde);
+        border-radius: 25px;
+        cursor: pointer;
+    }
+        .BtnVerde{
+            background-color: var(--Verde);
+            color: snow;
+            font-size: 20px;
+        }
+
+/* input */
+.input{
+    margin-bottom: 15px;
+}
+    	.input > p{
+            position: relative;
+            top: 5px;            
+            color: var(--Cinza2);
+        }
+        .input > input{
+            width: 100%;
+            height: 30px;
+            font-size: 16px;
+            margin-top: 10px;
+            border-bottom:2px solid var(--Cinza) ;
+        }
